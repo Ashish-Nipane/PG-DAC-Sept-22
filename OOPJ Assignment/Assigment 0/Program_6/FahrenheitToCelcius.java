@@ -1,0 +1,1 @@
+import java.util.*;class FahrenheitToCelcius{	public static void main(String args[]){		Scanner sc = new Scanner(System.in);		System.out.print("Input a degree in fahrenheit: ");		float f = sc.nextFloat();				float c = (f-32) * 5 / 9;		System.out.println(f+" degree Fahrenheit is equal to "+c+" in Celsius");			}}
